@@ -1,0 +1,59 @@
+{
+  "name": "Animal Guardian 360°",
+  "short_name": "AG360",
+  "description": "Emergency veterinary road accident dispatch, cruelty reporting, lost pet recovery, and transparent 80G donations in India.",
+  "start_url": "/",
+  "id": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#059669",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Road Accident SOS",
+      "short_name": "SOS Alert",
+      "description": "Trigger rapid road accident veterinary emergency dispatch",
+      "url": "/en/vets",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Report Cruelty",
+      "short_name": "Report",
+      "description": "Report animal cruelty and generate police Form AC-1 summary",
+      "url": "/en/cruelty-report",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Lost & Found Pets",
+      "short_name": "Lost Pets",
+      "description": "Search lost pets with AI vector matching",
+      "url": "/en/lost-and-found",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Donate via UPI",
+      "short_name": "Donate 80G",
+      "description": "Donate with instant Section 80G tax receipt",
+      "url": "/en/donate",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "categories": ["medical", "social", "utilities"],
+  "lang": "en-IN"
+}
+
