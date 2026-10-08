@@ -25,5 +25,5 @@ services:
 databases:
   - name: animal-guardian-db
     databaseName: animal_guardian_db
-    user: postgres
+    user: animal_guardian_user
     plan: free
